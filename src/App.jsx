@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home.jsx";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FoodApp" >
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
